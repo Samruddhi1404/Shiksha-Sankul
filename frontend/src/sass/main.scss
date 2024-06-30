@@ -1,0 +1,46 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/box.scss";
+@import "components/btn.scss";
+@import "components/chart.scss";
+@import "components/file-upload.scss";
+@import "components/input.scss";
+@import "components/login-form.scss";
+@import "components/modal.scss";
+@import "components/profile.scss";
+@import "components/pre-req.scss";
+@import "components/question.scss";
+@import "components/student-assessments.scss";
+@import "components/student-mgmt.scss";
+
+@import "layouts/dash-header.scss";
+@import "layouts/navigation";
+@import "layouts/sidebar";
+
+@import "pages/student-dash.scss";
+@import "pages/faculty-dash.scss";
+@import "components/CRUD.scss";
+
+@import "components/performance.scss";
+@import "components/user-profile.scss";
+
+@import "components/LearningRM.scss";
+@import "components/ContentLibrary.scss";
+
+@import "components/GoogleDriveResources.scss";
+
+@import "components/PDFUpload.scss";
+@import "components/DiscussionForum.scss";
+
+@import "components/homePage.scss";
+@import "components/AboutPage.scss";
+
+@import "components/ToDoList.scss";
+@import "components/IndividualLearningPlan.scss";

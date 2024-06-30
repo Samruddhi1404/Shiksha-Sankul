@@ -1,0 +1,34 @@
+.prereq {
+    height: 100vh; /* Set height to 100vh to span the entire viewport height */
+    width: 100%; /* Set width to 100% to span the entire viewport width */
+    position: relative;
+    background-color: $color-light-bg;
+    margin-left: 300px;
+
+    background-image: url("../assets/images/academic-bg.png");
+    background-size: cover; /* Use cover to ensure the image covers the entire container */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+
+    &__startbtn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-90%, -60%);
+        box-shadow:
+            0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        & button {
+            font-size: 2.5rem;
+            font-weight: 500;
+            color: #fff;
+            padding: 1.5rem 3rem;
+            outline: none;
+            border: none;
+            border-radius: 0.5rem;
+            background: $color-secondary-light;
+            cursor: pointer;
+        }
+    }
+}
